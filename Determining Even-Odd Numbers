@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Enter Number you want to check for even or odd: ";
+    cin >> a;
+    if (a % 2 == 0) {
+        cout << "Entered Number is Even" << endl;
+    } else {
+        cout << "Entered Number is odd" << endl;
+    }
+    return 0;
+}
